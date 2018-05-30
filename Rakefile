@@ -17,6 +17,9 @@ namespace :db do
   end
 
   desc 'seeds the database with dummy data from a seed file'
+  task :seed do
+
+  end
 end
 
 task :environment do
