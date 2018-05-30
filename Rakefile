@@ -13,7 +13,7 @@ end
 namespace :db do
   desc 'invokes the :environment task as a dependency'
   task :migrate => :environment do
-
+    Student.create_table
   end
 end
 
