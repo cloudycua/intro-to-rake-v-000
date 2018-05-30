@@ -9,3 +9,10 @@ namespace :greeting do
     puts "hola de Rake!"
   end
 end
+
+namespace :db do
+  desc 'invokes the :environment task as a dependency'
+    task :migrate => :environment
+
+    end
+end
