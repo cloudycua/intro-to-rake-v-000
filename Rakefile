@@ -12,9 +12,9 @@ end
 
 namespace :db do
   desc 'invokes the :environment task as a dependency'
-#  task :migrate => :environment
+  task :migrate => :environment do
 
-#  end
+  end
 end
 
 task :environment do
