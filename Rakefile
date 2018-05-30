@@ -16,3 +16,7 @@ namespace :db do
 
     end
 end
+
+task :environmet do
+  require_relative './config/environment'
+end
