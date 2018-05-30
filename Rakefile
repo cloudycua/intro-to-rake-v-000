@@ -11,7 +11,7 @@ namespace :greeting do
 end
 
 namespace :db do
-#  desc 'invokes the :environment task as a dependency'
+  desc 'invokes the :environment task as a dependency'
 #  task :migrate => :environment
 
 #  end
