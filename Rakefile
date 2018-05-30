@@ -10,13 +10,13 @@ namespace :greeting do
   end
 end
 
-namespace :db do
-  desc 'invokes the :environment task as a dependency'
-  task :migrate => :environment
+#namespace :db do
+#  desc 'invokes the :environment task as a dependency'
+#  task :migrate => :environment
 
-  end
-end
+#  end
+#end
 
-task :environment do
-  require_relative './config/environment'
-end
+#task :environment do
+#  require_relative './config/environment'
+#end
